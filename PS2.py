@@ -1,4 +1,8 @@
-a = 10
-b = 3
+letter = '''Dear <|Name|>,
+            you are selected!
+            <|Date|>'''
 
-print("Remainder of a divided by b is: ", a % b)
+letter = letter.replace("<|Name|>", "Debojit")
+letter = letter.replace("<|Date|>", "7 Mar 2025")
+
+print(letter)
