@@ -1,4 +1,4 @@
-name = "debo is good boy and he is a good student "
+l = [3, 3, 5, 1]
 
-print(name.replace("  "," " ))
-#strings ate immutable i.e you cannot change the value of a string once it is assigned
+
+print(sum(l))
