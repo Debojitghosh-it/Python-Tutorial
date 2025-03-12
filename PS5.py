@@ -1,4 +1,8 @@
-a = (7, 0, 8, 0, 0, 9)
+l = ["Harry", "Rohan", "Shubham", "Divya"]
 
-n = a.count(0)
-print(n)
+name = input("Enter your name: ")
+
+if(name in l):
+    print("Your name is in the list")
+else:
+    print("Your name is not in the list")
